@@ -44,13 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // 4. Access the ListView
         mainListView = (ListView) findViewById(R.id.main_listview);
 
-        // Create an ArrayAdapter for the ListView
-        mArrayAdapter = new ArrayAdapter(this,
-                android.R.layout.simple_list_item_1,
-                mNameList);
-
-        // Set the ListView to use the ArrayAdapter
-        mainListView.setAdapter(mArrayAdapter);
+        
 
 
     }
